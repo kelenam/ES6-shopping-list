@@ -5,5 +5,20 @@
 @tailwind utilities;
 
 .remove {
-    @apply bg-red-400 text-white rounded p-1;
+    @apply bg-red-400 text-white rounded ml-2 p-1;
+}
+.update {
+    @apply bg-green-400 text-white rounded ml-2 p-1;
+}
+.list {
+    @apply p-2 m-2 flex flex-1 flex-wrap;
+}
+.list-item {
+    @apply p-3 flex w-full m-3 bg-white ;
+}
+.item-name {
+    @apply bg-white w-10/12;
+}
+.item-actions {
+    @apply flex justify-end;
 }
