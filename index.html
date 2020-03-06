@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ES6 Shopping List</title>
+    <link rel="stylesheet" href="dist/styles.css" type="text/css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="form">
+            <input type="text" name="itemToAdd" id="itemToAdd" placeholder="Add an item to your shopping list...">
+            <button class="btn" id="addButton">+</button>
+        </div>
+
+        <div class="list" id="list">
+            <div class="list-item">
+                <input type="text" value="MILK" class="item-name" disabled />
+                <div class="item-actions">
+                    <button class="update">Update</button>
+                    <button class="remove bg-red-400">Remove</button>
+                </div>
+            </div>
+            <div class="list-item">
+                <input type="text" value="Carrots" class="item-name" disabled />
+                <div class="item-actions">
+                    <button class="update">Update</button>
+                    <button class="remove">Remove</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="src/index.js"></script>
+</body>
+</html>

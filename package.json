@@ -1,0 +1,13 @@
+{
+  "name": "es6-shopping-list",
+  "version": "1.0.0",
+  "description": "shopping list using ES6 syntax",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "tailwindcss": "^1.2.0"
+  },
+  "scripts": {
+    "build:css": "tailwindcss build src/styles.css -o dist/styles.css"
+  }
+}
