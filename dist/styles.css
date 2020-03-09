@@ -13954,12 +13954,20 @@ video {
   padding: 0.25rem;
 }
 
+.remove:hover {
+  background-color: #e53e3e;
+}
+
 .update {
   background-color: #68d391;
   color: #fff;
   border-radius: 0.25rem;
   margin-left: 0.5rem;
   padding: 0.25rem;
+}
+
+.update:hover {
+  background-color: #38a169;
 }
 
 .list {
@@ -13986,6 +13994,18 @@ video {
 .item-actions {
   display: flex;
   justify-content: flex-end;
+}
+
+@media screen and (max-width: 400px) {
+  .item-name {
+    background-color: #fff;
+    width: 66.666667%;
+  }
+
+  .item-actions {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
 
 @media (min-width: 640px) {

@@ -7,8 +7,14 @@
 .remove {
     @apply bg-red-400 text-white rounded ml-2 p-1;
 }
+.remove:hover {
+    @apply bg-red-600;
+}
 .update {
     @apply bg-green-400 text-white rounded ml-2 p-1;
+}
+.update:hover {
+    @apply bg-green-600;
 }
 .list {
     @apply p-2 m-2 flex flex-1 flex-wrap;
@@ -21,4 +27,13 @@
 }
 .item-actions {
     @apply flex justify-end;
+}
+@media screen and (max-width: 400px) {
+    .item-name {
+        @apply bg-white w-8/12;
+    }
+    .item-actions {
+        @apply flex-wrap justify-center;
+    }
+    
 }
